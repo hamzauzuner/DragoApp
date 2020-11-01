@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A2DD708FCBDEFF473F6BF02 /* Pods_Drago.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C61407771C6E44D24536C33 /* Pods_Drago.framework */; };
+		BC0CBE31254AD82B00682CD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0CBE30254AD82B00682CD6 /* AppDelegate.swift */; };
+		BC0CBE33254AD82B00682CD6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0CBE32254AD82B00682CD6 /* SceneDelegate.swift */; };
+		BC0CBE35254AD82B00682CD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0CBE34254AD82B00682CD6 /* ViewController.swift */; };
+		BC0CBE38254AD82B00682CD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC0CBE36254AD82B00682CD6 /* Main.storyboard */; };
+		BC0CBE3A254AD82C00682CD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC0CBE39254AD82C00682CD6 /* Assets.xcassets */; };
+		BC0CBE3D254AD82C00682CD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC0CBE3B254AD82C00682CD6 /* LaunchScreen.storyboard */; };
+		BC502A44254CC1EA009D5541 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC502A43254CC1EA009D5541 /* GoogleService-Info.plist */; };
+		BC502A48254CD10A009D5541 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC502A47254CD10A009D5541 /* SignUpViewController.swift */; };
+		BC502A4A254CD137009D5541 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC502A49254CD137009D5541 /* SignInViewController.swift */; };
+		BC502A4C254D652F009D5541 /* HomepageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC502A4B254D652F009D5541 /* HomepageViewController.swift */; };
+		BC502A4E254D6546009D5541 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC502A4D254D6546009D5541 /* ShareViewController.swift */; };
+		BC502A50254D655A009D5541 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC502A4F254D655A009D5541 /* ProfileViewController.swift */; };
+		BC502A52254DBE75009D5541 /* HomepageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC502A51254DBE75009D5541 /* HomepageTableViewCell.swift */; };
+		BC502A54254EF0DC009D5541 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC502A53254EF0DC009D5541 /* BaseViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A03FC9565C7D928A80286C9 /* Pods-Drago.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Drago.debug.xcconfig"; path = "Target Support Files/Pods-Drago/Pods-Drago.debug.xcconfig"; sourceTree = "<group>"; };
+		9C61407771C6E44D24536C33 /* Pods_Drago.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Drago.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B95D3041E2EF445C17CC6D0A /* Pods-Drago.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Drago.release.xcconfig"; path = "Target Support Files/Pods-Drago/Pods-Drago.release.xcconfig"; sourceTree = "<group>"; };
+		BC0CBE2D254AD82B00682CD6 /* Drago.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drago.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC0CBE30254AD82B00682CD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC0CBE32254AD82B00682CD6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BC0CBE34254AD82B00682CD6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC0CBE37254AD82B00682CD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC0CBE39254AD82C00682CD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC0CBE3C254AD82C00682CD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC0CBE3E254AD82C00682CD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC502A43254CC1EA009D5541 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BC502A47254CD10A009D5541 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		BC502A49254CD137009D5541 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		BC502A4B254D652F009D5541 /* HomepageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageViewController.swift; sourceTree = "<group>"; };
+		BC502A4D254D6546009D5541 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		BC502A4F254D655A009D5541 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		BC502A51254DBE75009D5541 /* HomepageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageTableViewCell.swift; sourceTree = "<group>"; };
+		BC502A53254EF0DC009D5541 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC0CBE2A254AD82B00682CD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A2DD708FCBDEFF473F6BF02 /* Pods_Drago.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		572972147743EE863205EB03 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A03FC9565C7D928A80286C9 /* Pods-Drago.debug.xcconfig */,
+				B95D3041E2EF445C17CC6D0A /* Pods-Drago.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		86B9CB04522230854D4DF867 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C61407771C6E44D24536C33 /* Pods_Drago.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC0CBE24254AD82B00682CD6 = {
+			isa = PBXGroup;
+			children = (
+				BC0CBE2F254AD82B00682CD6 /* Drago */,
+				BC0CBE2E254AD82B00682CD6 /* Products */,
+				572972147743EE863205EB03 /* Pods */,
+				86B9CB04522230854D4DF867 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BC0CBE2E254AD82B00682CD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC0CBE2D254AD82B00682CD6 /* Drago.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC0CBE2F254AD82B00682CD6 /* Drago */ = {
+			isa = PBXGroup;
+			children = (
+				BC0CBE30254AD82B00682CD6 /* AppDelegate.swift */,
+				BC0CBE32254AD82B00682CD6 /* SceneDelegate.swift */,
+				BC0CBE34254AD82B00682CD6 /* ViewController.swift */,
+				BC502A49254CD137009D5541 /* SignInViewController.swift */,
+				BC502A47254CD10A009D5541 /* SignUpViewController.swift */,
+				BC502A4B254D652F009D5541 /* HomepageViewController.swift */,
+				BC502A51254DBE75009D5541 /* HomepageTableViewCell.swift */,
+				BC502A4D254D6546009D5541 /* ShareViewController.swift */,
+				BC502A4F254D655A009D5541 /* ProfileViewController.swift */,
+				BC502A53254EF0DC009D5541 /* BaseViewController.swift */,
+				BC0CBE36254AD82B00682CD6 /* Main.storyboard */,
+				BC0CBE39254AD82C00682CD6 /* Assets.xcassets */,
+				BC0CBE3B254AD82C00682CD6 /* LaunchScreen.storyboard */,
+				BC0CBE3E254AD82C00682CD6 /* Info.plist */,
+				BC502A43254CC1EA009D5541 /* GoogleService-Info.plist */,
+			);
+			path = Drago;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC0CBE2C254AD82B00682CD6 /* Drago */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC0CBE41254AD82C00682CD6 /* Build configuration list for PBXNativeTarget "Drago" */;
+			buildPhases = (
+				2613131760517053565125BF /* [CP] Check Pods Manifest.lock */,
+				BC0CBE29254AD82B00682CD6 /* Sources */,
+				BC0CBE2A254AD82B00682CD6 /* Frameworks */,
+				BC0CBE2B254AD82B00682CD6 /* Resources */,
+				DECB9C87798033B41E005325 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Drago;
+			productName = Drago;
+			productReference = BC0CBE2D254AD82B00682CD6 /* Drago.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC0CBE25254AD82B00682CD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Hamza Uzuner";
+				TargetAttributes = {
+					BC0CBE2C254AD82B00682CD6 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = BC0CBE28254AD82B00682CD6 /* Build configuration list for PBXProject "Drago" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC0CBE24254AD82B00682CD6;
+			productRefGroup = BC0CBE2E254AD82B00682CD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC0CBE2C254AD82B00682CD6 /* Drago */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC0CBE2B254AD82B00682CD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC0CBE3D254AD82C00682CD6 /* LaunchScreen.storyboard in Resources */,
+				BC502A44254CC1EA009D5541 /* GoogleService-Info.plist in Resources */,
+				BC0CBE3A254AD82C00682CD6 /* Assets.xcassets in Resources */,
+				BC0CBE38254AD82B00682CD6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2613131760517053565125BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Drago-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DECB9C87798033B41E005325 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Drago/Pods-Drago-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Drago/Pods-Drago-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Drago/Pods-Drago-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC0CBE29254AD82B00682CD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC502A4E254D6546009D5541 /* ShareViewController.swift in Sources */,
+				BC0CBE35254AD82B00682CD6 /* ViewController.swift in Sources */,
+				BC0CBE31254AD82B00682CD6 /* AppDelegate.swift in Sources */,
+				BC502A4C254D652F009D5541 /* HomepageViewController.swift in Sources */,
+				BC0CBE33254AD82B00682CD6 /* SceneDelegate.swift in Sources */,
+				BC502A54254EF0DC009D5541 /* BaseViewController.swift in Sources */,
+				BC502A4A254CD137009D5541 /* SignInViewController.swift in Sources */,
+				BC502A50254D655A009D5541 /* ProfileViewController.swift in Sources */,
+				BC502A52254DBE75009D5541 /* HomepageTableViewCell.swift in Sources */,
+				BC502A48254CD10A009D5541 /* SignUpViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BC0CBE36254AD82B00682CD6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC0CBE37254AD82B00682CD6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC0CBE3B254AD82C00682CD6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC0CBE3C254AD82C00682CD6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC0CBE3F254AD82C00682CD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC0CBE40254AD82C00682CD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC0CBE42254AD82C00682CD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A03FC9565C7D928A80286C9 /* Pods-Drago.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53V3Z557WR;
+				INFOPLIST_FILE = Drago/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamzauzuner.Drago;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC0CBE43254AD82C00682CD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B95D3041E2EF445C17CC6D0A /* Pods-Drago.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53V3Z557WR;
+				INFOPLIST_FILE = Drago/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamzauzuner.Drago;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC0CBE28254AD82B00682CD6 /* Build configuration list for PBXProject "Drago" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC0CBE3F254AD82C00682CD6 /* Debug */,
+				BC0CBE40254AD82C00682CD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC0CBE41254AD82C00682CD6 /* Build configuration list for PBXNativeTarget "Drago" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC0CBE42254AD82C00682CD6 /* Debug */,
+				BC0CBE43254AD82C00682CD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC0CBE25254AD82B00682CD6 /* Project object */;
+}
